@@ -14,11 +14,6 @@ module.exports = {
     pdf_page_height: 11, //in
     pdf_margin: 0.25, //in
 
-    //FONTS
-    font_rule: "",
-    font_default_size: "", //font size will scale to try and fit all text.
-    font_default_color: "#000",
-
     //the types of each collumn in the csv. IN ORDER
     //these must match the collumns 
     col_types: [
@@ -28,6 +23,9 @@ module.exports = {
         "rule", //<- rule text
         "rule", //<- rule text
         "rule", //<- rule text
+        "ability", //<- ability text
+        "ability", //<- ability text
+        "ability", //<- ability text
         "help", //<-help text 
         "flavor", //<- flavor text
     ],
@@ -55,6 +53,18 @@ module.exports = {
         padding_x: 0.075, //in
         padding_y: 0.075, //in
         align: 'left',
+    },
+
+    style_ability: {
+        font: "./fonts/Saira_Semi_Condensed/SairaSemiCondensed-Regular.ttf",
+        //font: "./fonts/arial/arial.ttf",
+        size: 10,
+        min_siz: 6,
+        linegap: -4, //Some fonts have stupid built in line gap. It might be nessary to use a negative number here to make it look right. 
+        color: "#440055",
+        padding_x: 0.075, //in
+        padding_y: 0.075, //in
+        align: 'justify',
     },
 
     style_help: {
@@ -97,5 +107,10 @@ module.exports = {
         font: "./fonts/arial/arial.ttf",
         color: "#009922",
         size: 12,
-    }]
+    }, {
+        text: "☠", //skull
+        font: "./fonts/arial/arial.ttf",
+        color: "#000000",
+        size: 12,
+    }, ]
 }

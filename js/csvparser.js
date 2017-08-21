@@ -28,6 +28,7 @@ function parse(csv, config, _callback) {
                 subtype: null,
                 title: null,
                 rules: [],
+                abilities: [],
                 helps: [],
                 flavors: [],
             }
@@ -48,6 +49,11 @@ function parse(csv, config, _callback) {
                     case "rule":
                         if (r != '') {
                             card.rules.push(r);
+                        }
+                        break;
+                    case "ability":
+                        if (r != '') {
+                            card.abilities.push(r);
                         }
                         break;
                     case "help":

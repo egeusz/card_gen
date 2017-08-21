@@ -1,106 +1,107 @@
-item,attack,Photon Cannon , +1 Attack,"test,test2  fg",(help ful text),flavor text,
-item,attack,Flak Blaster, +1 Attack,"SHRAPNEL SHEILD: 4●: 
-Disable an item equiped to target ship in your sector until end of turn.",,(All Effects of a disabled item are ignored and it's abilities cannot be used.)  ,
-item,attack,Laser Slicer, +1 Attack,"PINPOINT: 1●:
-+2 attack until end of turn. ",,,
-item,attack,Beam Splitter, +2 Attack,"FRACTURE: 2●:
-+2 attack until end of turn. ",,,
-item,attack,Blaster Core, +2 Attack,"OVERCHARGE: 4●:
+Type,Sub-type,title,Rule1,Rule2,Rule3,Ability1,Ability2,Ability3,Help Text,Flavor Text
+item,attack,Photon Cannon , +1 Attack,,,,,,,
+item,attack,Flak Blaster, +1 Attack,,,"SHRAPNEL SHEILD: 4●: 
+Disable an item equiped to target ship in your sector until end of turn.",,,(All Effects of a disabled item are ignored and it's abilities cannot be used.)  ,
+item,attack,Laser Slicer, +1 Attack,,,"PINPOINT: 1●:
++2 attack until end of turn. ",,,,
+item,attack,Beam Splitter, +2 Attack,,,"FRACTURE: 2●:
++2 attack until end of turn. ",,,,
+item,attack,Blaster Core, +2 Attack,,,"OVERCHARGE: 4●:
 +6 Attack until end of turn.
-Destroy this item. ",,,
+Destroy this item. ",,,,
 item,adv attack,Heat Ray," +3 Attack
- -3 Defense","OVER HEAT: 3●:
+ -3 Defense",,,"OVER HEAT: 3●:
 +3 Attack until end of turn.
--3 Defense until end of turn.",,(Your Items cannot reduce your total Defense bellow 1),
+-3 Defense until end of turn.",,,(Your Items cannot reduce your total Defense bellow 1),
 item,adv attack,Industrial Mining Crusher," +3 Attack
-  -1 Speed",Collect 1♦ extra Crystal from any system that gives you Crystals.,,,
-item,adv attack,The Black Flag," +X attack, where X is equal to half of your reputation rounded down.", +2 to your Reputation when you equip this Item. ,,,
-item,super attack,Cluster Rockets,,"VOLLEY:  X●:
-+X attack until end of turn.",,,
-item,super attack,Trash Cannon,,"CHUCK: discard a card: 
-+4 Attack until end of turn.",,,
-item,defense,Slime Sealant, +1 defense,,,,
-item,defense,Blast Panels, +1 defense,,,,
-item,defense,Particle Sheild, +1 defense,"CHARGE: 3●:
-+3 defense",,,
-item,defense,Reinforced Hull Plating, +2 defense,,,,
-item,defense,Sentient Sensor Suite, +2 defense,At the end of your move if you entered a new sector collect 1♦ crystal. ,"SENSOR PING: 1●:
-+1 Defense until end of turn",,
-item,adv defense,Nanoid Patchers, +1 defense,"
+  -1 Speed",Collect 1♦ extra Crystal from any system that gives you Crystals.,,,,,,
+item,adv attack,The Black Flag," +X attack, where X is equal to half of your reputation rounded down.", +2 to your Reputation when you equip this Item. ,,,,,,
+item,super attack,Cluster Rockets,,,,"VOLLEY:  X●:
++X attack until end of turn.",,,,
+item,super attack,Trash Cannon,,,,"CHUCK: discard a card: 
++4 Attack until end of turn.",,,,
+item,defense,Slime Sealant, +1 defense,,,,,,,
+item,defense,Blast Panels, +1 defense,,,,,,,
+item,defense,Particle Sheild, +1 defense,,,"CHARGE: 3●:
++3 defense",,,,
+item,defense,Reinforced Hull Plating, +2 defense,,,,,,,
+item,defense,Sentient Sensor Suite, +2 defense,At the end of your move if you entered a new sector collect 1♦ crystal. ,,"SENSOR PING: 1●:
++1 Defense until end of turn",,,,
+item,adv defense,Nanoid Patchers, +1 defense,,,"
 AMALGAMAFY: 0●:
 +4 defense
-Disable an item equiped to your ship until end of turn. ",,(All Effects of a disabled item are ignored and it's abilities cannot be used.)  ,
-item,adv defense,Impact Dampener, +2 Defense,"RIPPLE: 2●:
+Disable an item equiped to your ship until end of turn. ",,,(All Effects of a disabled item are ignored and it's abilities cannot be used.)  ,
+item,adv defense,Impact Dampener, +2 Defense,,,"RIPPLE: 2●:
 +3 Defense until end of turn.
--3 Attack until end of turn.",,,
-item,adv defense,The Invisible Hook (rename?),," +4 Defense 
--2 Attack 
--X Defense and +X Attack where X is your Reputation. ",,(Your Items cannot reduce your total Defense bellow 1),
-item,super defense,Warp Shield ,,"ENGAGE: X●:
-+X Defense until end of turn.",,,
+-3 Attack until end of turn.",,,,
+item,adv defense,The Invisible Hook (rename?)," +4 Defense 
+-2 Attack ","
+-X Defense and +X Attack where X is your Reputation. ",,,,,(Your Items cannot reduce your total Defense bellow 1),
+item,super defense,Warp Shield ,,,,"ENGAGE: X●:
++X Defense until end of turn.",,,,
 item,super defense,Depleted Fermium Armor Lining ," +4 Defense
- -1 Speed",,,,
-item,movement,Telemetry Sounder, +1 Speed,"SOUND OFF: 3●:
+ -1 Speed",,,,,,,
+item,movement,Telemetry Sounder, +1 Speed,,,"SOUND OFF: 3●:
 +1  Defense until end of turn.
-+1  Attack until end of turn.",,,
-item,movement,After Burner,,"BURN: 2●:
++1  Attack until end of turn.",,,,
+item,movement,After Burner,,,,"BURN: 2●:
 +1 Speed until end of turn.","SONIC EXPLOSION: 4●:
 +5 Attack until end of turn. 
-Destroy this Item.",,
-item,movement,Bussard Ramjet,,"ENGAGE: 2●:
-+2 Speed until end of turn. ",,,
+Destroy this Item.",,,
+item,movement,Bussard Ramjet,,,,"ENGAGE: 2●:
++2 Speed until end of turn. ",,,,
 item,movement,Slipstream Nose Cone," +1 Speed
- +1 Defense",,,,"She's got it where it counts, kid"
-item,movement,Ion Engine, +1 Speed,,,,
+ +1 Defense",,,,,,,"She's got it where it counts, kid!"
+item,movement,Ion Engine, +1 Speed,,,,,,,
 item,adv movement,Auxiliary Boosters," +1 Speed
- +1 Evasion",,,,
-item,adv movement,Faulty Cruise Engine,,"When you start your move, you must roll a die:
+ +1 Evasion",,,,,,,
+item,adv movement,Faulty Cruise Engine,"When you start your move, you must roll a die:
 6: +3 Speed this turn.
 3 to 5: +2 Speed this turn. 
-1 to 2: -1 Speed this tutn.",,,
+1 to 2: -1 Speed this tutn.",,,,,,,
 item,adv movement,"Experiamental Dark Energy Quantum Jump Core", +2 Speed,"When you complete you move, before performing any other action, roll a die: 
 1: You must return to the location you started your move at. 
-2 to 6: Nothing. Jump successful!",,,
-item,super movement,Improbability Drive,,"ACTIVATE: roll a Die:
-6: Jump to the nearest planet in a neighboring sector, then continue your moves.
+2 to 6: Nothing. Jump successful!",,,,,,
+item,super movement,Improbability Drive,,,,"ACTIVATE: Roll a Die: 6: Jump to the nearest planet in a neighboring sector then continue your moves.  
 5: +2 Speed until end of turn
 4: +1 Speed until end of turn
-3:  -1 Speed until end of turn
+3: -1 Speed until end of turn
 2: Your Speed drops to 1 until end of turn.
-1: Your Speed drops to 0 until end of turn.",,,
-item,super movement,Stolen Warp Core,,"JUMP: 4●:
+1: Your Speed drops to 0 until end of turn.",,,,
+item,super movement,Stolen Warp Core,,,,"JUMP: 4●:
 +3 Speed until end of turn. 
-+1 Reputation",,,
-item,escape,Heat Sinks, +1 Evasion,,,,
-item,escape,Gyroscopic Balancer, +1 Evasion,,,,
-item,escape,Articulate Thrusters,,"MANEUVER: 2●:
++1 Reputation",,,,
+item,escape,Heat Sinks, +1 Evasion,,,,,,,
+item,escape,Gyroscopic Balancer, +1 Evasion,,,,,,,
+item,escape,Articulate Thrusters,,,,"MANEUVER: 2●:
 +1 to Evasion until end of turn.","OUT MANEUVER: 4●:
-+2 to Evasion",,
++2 to Evasion",,,
 item,escape,Bothan Cloaker," +2 Evasion
--4 Defense","DISCHARGE: 3●:
+-4 Defense",,,"DISCHARGE: 3●:
 +4 to Evasion until end of turn
 Your Defense becomes 1 until end of turn. 
-Destroy this Item.",,,
-item,escape,Stealth Feild,,"ACTIVATE: 3●:
-Your ship cannot be the Target of Action Cards, Player Abilities or Item Abilities (including your own) until end of turn.",,(Abilities that Target say “target ship” in their text),
-item,escape + anti escape,Acrobatic Concusion Engines,,"BARREL ROLL: 2●:
+Destroy this Item.",,,,
+item,escape,Stealth Feild,,,,"ACTIVATE: 3●:
+Your ship cannot be the Target of Action Cards, Player Abilities or Item Abilities (including your own) until end of turn.",,,(Abilities that Target say “target ship” in their text),
+item,escape + anti escape,Acrobatic Concusion Engines,,,,"BARREL ROLL: 2●:
 +1 to Evasion until end of turn.","HOT PURSUIT: 3●:
--2 to Evasion of target ship in your secror until end of turn.",,
-item,anti escape,Targeting Computer,,"SCAN: 3●:
+-2 to Evasion of target ship in your secror until end of turn.",,,
+item,anti escape,Targeting Computer,,,,"SCAN: 3●:
 The Evasion of target ship in your secror  becomes 1 until end of turn.","DEEEEP SCAN: 6●:
-Target Ship’s Evasion becomes 0 until end of turn. ",,>TARGET LOCK CONFIRMED<
-item,anti escape,Grapple Hook,,"SNARE: 3●:
+Target Ship’s Evasion becomes 0 until end of turn. ",,,>TARGET LOCK CONFIRMED<
+item,anti escape,Grapple Hook,,,,"SNARE: 3●:
 The Evasion of target ship in your secror  becomes 1 until end of turn.
--4 defense.",,(Your Items cannot reduce your total Defense bellow 1),
-item,anti escape,Tractor Beam,,"PULL:  4●: 
-The Evasion of target ship in your secror  becomes 0 until end of turn.",,,
-item,util,Modular Engineering,-2 defense,"HOT SWAP: 1●:
-You may exchange any equipped item with any other from your hand.",,,
-item,util,Multi-Pass, ,"ACCESS ESCALATION: 2●:
+-4 defense.",,,(Your Items cannot reduce your total Defense bellow 1),
+item,anti escape,Tractor Beam,,,,"PULL:  4●: 
+The Evasion of target ship in your secror  becomes 0 until end of turn.",,,,
+item,util,Modular Engineering,-2 defense,,,"HOT SWAP: 1●:
+You may exchange any equipped item with any other from your hand.",,,,
+item,util,Multi-Pass, ,,,"ACCESS ESCALATION: 2●:
 -4 Reputation until end of turn.","SYSTEM SCRAMBLE: 2●:
-+4 Reputation until end of turn. ",,
-item,util,Hardwired Sub-Space Fusion Bomb,"If your ship is destroyed, destroy all other ships in the sector and destroy this Item.
-Gain Reputation equal to the number of ships destroyed this way. ",,,"(If your ship is destroyed as a result of combat, the winning player does not get to salvage, collect bounty or a gain level.)",
++4 Reputation until end of turn. ",,,
+item,util,Hardwired Sub-Space Fusion Bomb,"If your ship is destroyed, destroy 
+all other ships in the sector and destroy this Item.
+Gain Reputation equal to the number of ships destroyed this way. ",,,,,,"(If your ship is destroyed as a result of combat, the winning player does not get to salvage, collect bounty or a gain level.)",
 item,util,Unspeakable Machine,"When you draw this item, 
 it equips immediately. (even if you must un-equip another item)","At the beginning of your turn roll a die:
 6: +4 attack until end of turn and you must move to and attack the nearest ship if able.
@@ -108,132 +109,129 @@ it equips immediately. (even if you must un-equip another item)","At the beginni
 4: Draw a card
 3: +1 speed until end of turn
 2: -2 Defense until end of turn
-1: +1 attack until end of turn",,,
-item,util,Power Converter,,"CHARGE: 1●:
+1: +1 attack until end of turn",,,,,,
+item,util,Power Converter,,,,"CHARGE: 1●:
 You may activate one ability of another item equipped to your ship without paying plasma for it. ","SUPERCHARGE: 3●: 
 You may activate one ability twice of another item equipped to your ship without paying plasma for it. 
 Destroy this Item.
-(Item abilities that would destroy the item can only be activated once)",,
-item,util,Battery Pods,,"DISCHARGE: 2●: 
--1 plasma to Abilities of all Items equiped to your ship until end of turn.   ",,,
-item,util,Storage Container,You may have up to 3 extra cards in your hand.,,,,
-item,util,Smuggling Compartment,(something more interesting),,,,
-item,util,Trash Reactor,,"FEED: discard a card: 
+(Item abilities that would destroy the item can only be activated once)",,,
+item,util,Battery Pods,,,,"DISCHARGE: 2●: 
+-1 plasma to Abilities of all Items equiped to your ship until end of turn.   ",,,,
+item,util,Storage Container,You may have up to 3 extra cards in your hand.,,,,,,,
+item,util,Smuggling Compartment,(something more interesting),,,,,,,
+item,util,Trash Reactor,,,,"FEED: discard a card: 
 +2 Attack until end of turn.
   or
 +2 Defense until end of turn.
   or
-+1 Speed until end of turn.",,,
-item,util,Ore Smelter,,"LOAD:  discard a card:
++1 Speed until end of turn.",,,,
+item,util,Ore Smelter,,,,"LOAD:  discard a card:
 Collect 2● Plasma.","OVER LOAD: discard X cards:
 Collect X * 3● Plasma. 
 Destroy this Item. 
-EFFECT: -2 Speed on your next turn. ",,Never give up! Never surrender!
-item,util,Programmable Matter,,"When you equip this item it becomes a copy of another item already equiped to your ship.
-If the copied item is unequiped, salvaged or destroyed, you must unequip this item. ",,,
-item,util,Captain’s Chair,,"INSPIRE:  1●:
+EFFECT: -2 Speed on your next turn. ",,,Never give up! Never surrender!
+item,util,Programmable Matter,When you equip this item it becomes a copy of another item already equiped to your ship.,"If the copied item is unequiped, salvaged or destroyed, you must unequip this item. ",,,,,,
+item,util,Captain’s Chair,,,,"INSPIRE:  1●:
 Collect 2♦ Crystals
-(activate this item only on your turn.)",,,Nothing gets a ship running like a well oiled machine like a well oiled machine.
+(activate this item only on your turn.)",,,,Nothing gets a ship running like a well oiled machine like a well oiled machine.
 item,crew,Synthetic Deck Officer," +1 Defense
  +1 Attack
  +1 Evasion
- +1 Speed ",,,,
-item,crew,Fire Control Team , +1 Defense ,"CONTAINMENT: 2●:
-+ X Defense until end of turn where X is the number of items equipped to your ship. ",,,
+ +1 Speed ",,,,,,,
+item,crew,Fire Control Team , +1 Defense ,,,"CONTAINMENT: 2●:
++ X Defense until end of turn where X is the number of items equipped to your ship. ",,,,
 item,crew,Merc Squad," +3 Attack 
- +3 Defense","At the beginning of your turn you must pay 50▲. If you cannot, destroy Merc Squad.
-At any time any player in your sector may pay 300▲, if they do they may equip Merc Squad to their ship.","BONUS: 300▲: 
-Target ship in the same sector gets -4 defense until end of turn.",,
+ +3 Defense","At the beginning of your turn you must pay 50▲. If you cannot, destroy Merc Squad.","At any time any player in your sector may pay 300▲, if they do they may equip Merc Squad to their ship.","BONUS: 300▲: 
+Target ship in the same sector gets -4 defense until end of turn.",,,,
 item,crew,Loyal Mechanic," +1 Speed.
 Any effect that would reduce your Speed below 1 only reduces it to 1 instead. 
-This Item cannot be salvaged.","MAKE HER FLY: 6●:
+This Item cannot be salvaged.",,,"MAKE HER FLY: 6●:
 If your ship would be destroyed this turn, your ship is not destroyed. Gain:
-EFFECT: -4 defense until the end of your next turn.",,,
-item,crew,Narcoleptic Pilot Ace , +1 Speed.,"MANEUVER: 1● and roll a die:
+EFFECT: -4 defense until the end of your next turn.",,,,
+item,crew,Narcoleptic Pilot Ace , +1 Speed.,,,"MANEUVER: 1● and roll a die:
 3 to 6: +3 evasion
-1 to 2:  -3 evasion",,,
-item,crew,Tail Gunner, +2 Attack if you are the defending player. ,"SUPPRESSING FIRE:  6●: If you escaped combat, destroy the Attacking Ship. 
-(Do not salvage, or collect bounty)",,,Never look back
-item,crew,Expert Navigator, +X Attack where X is the number of other player ships in your sector,"CHART:  2●:
-If you just drew an Event Card, ignore that Event Card.  ",,,"Look before you leap, they says. If a foogort had wings it wouldn’t bump it’s ass a hoppin."
-item,crew,Pleasure Android,,"BACK RUB:  4●:
+1 to 2:  -3 evasion",,,,
+item,crew,Tail Gunner, +2 Attack if you are the defending player. ,,,"SUPPRESSING FIRE:  6●: If you escaped combat, destroy the Attacking Ship. Do not salvage, or collect bounty.",,,,Never look back.
+item,crew,Expert Navigator, +X Attack where X is the number of other player ships in your sector,,,"CHART:  2●:
+If you just drew an Event Card, ignore that Event Card.  ",,,,"Look before you leap, they says. If a foogort had wings it wouldn’t bump it’s ass a hoppin."
+item,crew,Pleasure Android,,,,"BACK RUB:  4●:
 +1( max 6) to your next die roll. ","FOOT RUB:  3●:
--1( min 1) to your next die roll. ",,
-item,crew,Insectoid Saboteur ,,"CROSS WIRE: 3●: 
+-1( min 1) to your next die roll. ",,,
+item,crew,Insectoid Saboteur ,,,,"CROSS WIRE: 3●: 
 Disable an Item on target ship in your sector until end of turn.","HIJACK: 5●:
 Control the next move of target ship in your sector or neighboring sector. 
-(You may not activate abilities of items equiped to the hijacked ship)",,
-action,combat,Ramming Speed, +X Attack and -X Defense where X is your ship's current speed. ,,,(Your Items cannot reduce your total Defense bellow 1),
-action,combat,Hoist the Colors, +X Attack to target player ship where X is equal to the Reputation of the ship’s owner.,"(need name) : 2●:
-+4 to your Reputation",,,
+(You may not activate abilities of items equiped to the hijacked ship)",,,
+action,combat,Ramming Speed, +X Attack and -X Defense where X is your ship's current speed. ,,,,,,(Your Items cannot reduce your total Defense bellow 1),
+action,combat,Hoist the Colors, +X Attack to target player ship where X is equal to the Reputation of the ship’s owner.,,,"(need name) : 2●:
++4 to your Reputation",,,,
 action,combat,Hack Their Systems,"Roll a die:
 1-5: -3 Defense to target ship until end of turn.
 6: Target ship’s defense becomes 1 until end of turn. That ship’s defense cannot be modified 
-any further until end of turn. ","DOUBLE HACK : 2●:
+any further until end of turn. ",,,"DOUBLE HACK : 2●:
 Disable 2 items equiped to target ship until end of turn.
-Disable 2 items equiped to your ship until end of turn. ",,,<..~☠~..>
+Disable 2 items equiped to your ship until end of turn. ",,,,<..~☠~..>
 action,combat,Route Power,"Pick one:
 +4 Attack, -3 Defense and -2 Evasion until end of turn.
   or
 +4 Defense, -3 Attack and  -2 Evasion until end of turn.
   or 
-+2 Evasion, -4 Attack and  -4 Defense until end of turn.",,,(Your Items cannot reduce your total Defense bellow 1),Giving it all she's got!
-action,combat,,,,,,
-action,combat,,,,,,
-action,combat,,,,,,
-action,combat,,,,,,
-action,combat,,,,,,
-action,combat,,,,,,
-action,combat,,,,,,
-action,combat,,,,,,
-action,combat,,,,,,
-action,combat,,,,,,
++2 Evasion, -4 Attack and  -4 Defense until end of turn.",,,,,,(Your Items cannot reduce your total Defense bellow 1),"Giving it all she's got, captain!"
+action,combat,,,,,,,,,
+action,combat,,,,,,,,,
+action,combat,,,,,,,,,
+action,combat,,,,,,,,,
+action,combat,,,,,,,,,
+action,combat,,,,,,,,,
+action,combat,,,,,,,,,
+action,combat,,,,,,,,,
+action,combat,,,,,,,,,
+action,combat,,,,,,,,,
 action,escape,"
 Redline"," +3 to defending ship’s Evasion until end of turn. 
 If the defending player escapes, they roll a die. 
-If they roll a 1 their ship is destroyed.",,,,"""I'm a leave on the wind..."""
-action,escape,Kill the Lights, +1 to Evasion until end of turn. ,"HOLD BREATH:  3●:
+If they roll a 1 their ship is destroyed.",,,,,,,"""I'm a leave on the wind..."""
+action,escape,Kill the Lights, +1 to Evasion until end of turn. ,,,"HOLD BREATH:  3●:
 +3 Defense until end of turn. 
--3 Attack until end of turn.",,,
+-3 Attack until end of turn.",,,,
 action,escape,Snitch,"A local municipal cruiser arrives on the scene. Combat is interrupted. No ships are destroyed. 
-Any player in the sector whose reputation is 5 or greater goes to jail.",STRIP SEARCH:  1●:  Any player in the sector whose reputation is 2 or greater must destroy an equipped item.,,,Break It up!
+Any player in the sector whose reputation is 5 or greater goes to jail.",,,STRIP SEARCH:  1●:  Any player in the sector whose reputation is 2 or greater must destroy an equipped item.,,,,Break It up!
 action,escape,Jettison the Cargo,"To play this action you must discard a card.
 Combat is interrupted. No ships are destroyed.
-","EFFECT:
-+1 Movement until the end of your next turn. ",,,
-action,diable,Electro Magnetic Pulse,All items equiped to all ships in your sector are disabled until end of turn. ,"FAIL-SAFE: X●: 
-You may exclude 1 item from being disabled for each 4● spent.",,(All Effects of a disabled item are ignored and it's abilities cannot be used.)  ,
-action,anti escape,Gravity Bomb,-4 Evasion to all ships in your sector until end of turn.,"REMOTE DETINATION: X● where X is the number of jumps away from target sector.:
--4 Evasion to all ships until end of turn in target sector instead.",,,
+",,,"EFFECT:
++1 Movement until the end of your next turn. ",,,,
+action,diable,Electro Magnetic Pulse,All items equiped to all ships in your sector are disabled until end of turn. ,,,"FAIL-SAFE: X●: 
+You may exclude 1 item from being disabled for each 4● spent.",,,(All Effects of a disabled item are ignored and it's abilities cannot be used.)  ,
+action,anti escape,Gravity Bomb,-4 Evasion to all ships in your sector until end of turn.,,,"REMOTE DETINATION: X● where X is the number of jumps away from target sector.:
+-4 Evasion to all ships until end of turn in target sector instead.",,,,
 action,roll fixer,Roll a Hard 6,"Play when a die is rolled.
-Make that die roll outcome become 6.",,,,Some days you just gotta roll a hard 6
+Make that die roll outcome become 6.",,,,,,,Some days you just gotta roll a hard 6
 action,roll fixer,Fixed Fate,"Play when a die is rolled.
-Make that die roll outcome become 1.",,,,Sometimes the Kragork eats you and sometimes your are eaten by the Kragork 
+Make that die roll outcome become 1.",,,,,,,Sometimes the Kragork eats you and sometimes your are eaten by the Kragork 
 action,roll fixer,Activate the Omega 13,"Play when a die is rolled.
-The thrower of a dice may add or subtract 1 to the outcome of its roll. Cannot go below 1 or above 6.",,,,
+The thrower of a dice may add or subtract 1 to the outcome of its roll. Cannot go below 1 or above 6.",,,,,,,
 action,roll fixer,Double Jeopardy,"Play when a die is rolled.
 Roll a second die. 
 +X or -X to the previous die roll where X is the value of the second Die Roll.
-The first die roll cannot go below 1 or above 6.",,,,
-action,movement,Pedal to the Metal, +1 Speed or +1 Evasion until end of turn. ,"USE BOTH PEDALS:  2●:
-+1 Speed and +1 Evasion until end of turn as well. ",,,
-action,movement,Fusion Burst, +2 speed until end of turn. ,"BOOST:  X●(max 6):
-Gain Speed equal to X / 2 rounded down until end of turn. ",,,
+The first die roll cannot go below 1 or above 6.",,,,,,,
+action,movement,Pedal to the Metal, +1 Speed or +1 Evasion until end of turn. ,,,"USE BOTH PEDALS:  2●:
++1 Speed and +1 Evasion until end of turn as well. ",,,,
+action,movement,Fusion Burst, +2 speed until end of turn. ,,,"BOOST:  X●(max 6):
+Gain Speed equal to X / 2 rounded down until end of turn. ",,,,
 action,movement,Unauthorized Hyperspace Jump ,"Jump to any planet on the board. +3 Reputation. 
 If you jump to a planet in the Core sector, +5 reputation instead.
-Cannot be played during combat.",,,,
+Cannot be played during combat.",,,,,,,
 action,movement,Unstable fuel,"Roll a Die:
-+X Speed until end of turn where X is equal to the die roll minus 2.",,,,
++X Speed until end of turn where X is equal to the die roll minus 2.",,,,,,,
 action,revenge,You Shall Be Avenged,"Play at the end of combat.
-+5 reputation to winner of combat.",,,,
-action,revenge,,,,,,
-action,,,,,,,
-action,,,,,,,
-action,,,,,,,
-action,,,,,,,
-action,,,,,,,
-action,,,,,,,
-action,,,,,,,
-action,,,,,,,
-action,,,,,,,
-action,,,,,,,
++5 reputation to winner of combat.",,,,,,,
+action,revenge,,,,,,,,,
+action,,,,,,,,,,
+action,,,,,,,,,,
+action,,,,,,,,,,
+action,,,,,,,,,,
+action,,,,,,,,,,
+action,,,,,,,,,,
+action,,,,,,,,,,
+action,,,,,,,,,,
+action,,,,,,,,,,
+action,,,,,,,,,,
