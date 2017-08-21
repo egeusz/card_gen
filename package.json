@@ -1,0 +1,15 @@
+{
+  "name": "card_gen",
+  "version": "0.0.1",
+  "description": "takes a csv and creates a print able pdf of the cards",
+  "main": "make.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Geusz, Ali Ghadimi",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^1.2.0",
+    "pdfkit": "^0.8.3"
+  }
+}
